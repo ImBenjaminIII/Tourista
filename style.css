@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    color: greenyellow;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+
+.links {
+    gap: 10px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    color: rgb(255, 255, 255);
+}
+
+.background-image {
+    background-image:url("/images/background-image.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px #6520208a;
+}
+
+span {
+    color: greenyellow;
+}
+
+.BannerWrapper {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.banner {
+    flex-grow: 1;
+    flex-basis: 300px;
+    font-size: 20px;
+}
+
+.BannerHeader {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: upper;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BannerContainer {
+    padding-top: 50px;
+    border-bottom: 2px solid gainsboro;
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    width: 60px;
+}
+
+.BannerDescription {
+    margin-top: 10px;
+}
+
+
+

@@ -50,7 +50,7 @@ a {
 }
 
 .welcome {
-    font-size: 80px;
+    font-size: 50px;
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
@@ -99,8 +99,6 @@ span {
     margin-top: 10px;
 }
 
-
-}
 .vacations {
     display: flex;
     flex-wrap: wrap;

@@ -50,8 +50,8 @@ a {
 }
 
 .welcome {
-    font-size: 50px;
-    padding: 20px;
+    font-size: 40px;
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     color: white;
@@ -78,7 +78,7 @@ span {
 }
 
 .BannerHeader {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     text-align: center;
     text-transform: upper;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

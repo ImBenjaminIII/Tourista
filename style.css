@@ -146,6 +146,7 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .company, .other-services, .pricing {

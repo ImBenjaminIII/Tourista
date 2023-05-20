@@ -68,15 +68,16 @@ span {
 
 .BannerWrapper {
     display: flex;
-    gap: 1rem;
+    gap: 20px;  /* pushing last banner to the bottom */
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-wrap: wrap;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner {
-    flex-grow: 1;
     flex-basis: 300px;
     font-size: 20px;
 }
@@ -91,7 +92,7 @@ span {
 .BannerContainer {
     padding-top: 50px;
     border-bottom: 2px solid gainsboro;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -125,4 +126,11 @@ span {
 .goal-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+footer {
+    background-color: green;
+}
+.social-wrapper {
+    
 }
